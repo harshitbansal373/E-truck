@@ -5,8 +5,8 @@
         <img class="img-fluid web" src="images/bluebg4.jpg" alt="home">
         <img class="img-fluid mobile" src="images/bluebg2.jpg" alt="home">
     </div>
-    <div class="row">
-        <div class="col-sm-4 book px-5 pt-5">
+    <div class="row top">
+        <div class="col-sm-4 book px-5 pt-5 top">
             <h2 class="text-center" style="font-family: 'Capriola', sans-serif;color:aqua;">GET A TRUCK NOW</h2>
             <form action="" method="POST" enctype="multipart/form-data">
                 <div class="form-group mb-3 mt-5">
@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="form-group col-sm-6">
                         <label for="time">Time</label>
-                        <input type="text" class="form-control" name="time" >
+                        <input type="text" class="form-control" name="time" placeholder="NOW">
                     </div>
                     <div class="form-group col-sm-6">
                         <label for="time_schedule">As Per Schedule</label>
@@ -31,15 +31,15 @@
             </form>
         </div>
 
-        <div class="col-sm-6 offset-sm-2">
-            <img class="img-fluid" src="images/taxi2.png" alt="truck">
+        <div class="col-sm-6 offset-sm-2 mt-1">
+            <img class="img-fluid" src="images/taxi.png" alt="truck">
         </div>
 
     </div>
     <!-- row -->
 
     <div class="container">
-        <div class="text-center mb-5 head"><h3>OUR SERVICES</h3></div>
+        <div class="text-center mt-5 mb-5 head" style="color:white;"><h3>OUR SERVICES</h3></div>
         <div class="row">
             <div class="card card-beauty col-sm-3" style="width: 18rem;">
                 <div class="card-body">

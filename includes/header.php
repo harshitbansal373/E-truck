@@ -19,7 +19,10 @@
     <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
 
     <style>
-
+    body {
+        background-image: url(images/truck2.jpg);
+        background-color: #cccccc;
+    }
     </style>
 
     <title>Harshit</title>
