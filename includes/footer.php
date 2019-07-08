@@ -21,5 +21,17 @@
     
     <!-- Custom scripts for all pages-->
     <script src="js/script.js"></script>
+
+    <!-- footer manage -->
+    <script>
+      $(document).ready(function(){
+          if($('body').height() < $(window).height()*0.8){
+            $('footer').css({
+              "position": "fixed", "width": "100%", "bottom": "0"
+            })
+          }
+      })
+    </script>
+    
   </body>
 </html>
