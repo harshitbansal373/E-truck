@@ -1,0 +1,106 @@
+/* css for home page */
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../images/memphis-colorful.png);
+}
+
+.sidenav{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:0;
+    overflow-x:hidden;
+    transition:0.5s;
+    padding-top:60px;
+    background-color:#3E2D2A;
+}
+
+.sidenav a{
+    padding:8px 8px 8px 32px;
+    text-decoration:none;
+    font-size:23px;
+    font-family: 'Slabo 27px', serif;
+    display:block;
+    color:#E1D7C3;
+    transition:0.3s;
+}
+
+.sidenav a:hover{
+    font-size:25px;
+    color:rgb(112, 134, 13);
+}
+
+.closebtn{
+    position:absolute;
+    top:0;
+    right:25px;
+    font-size:35px;
+    margin-left:50px;
+    cursor:pointer;
+    color: white;
+}
+
+.openbtn{
+    margin-right: 1%;
+    cursor:pointer;
+    color:white;
+}
+
+@media screen and (max-height:450px){
+    .sidenav{padding-top:15px;}
+    .sidenav a{font-size:18px;}
+}
+
+@media only screen and (max-width: 600px) {
+    .web{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile{
+        display:none;
+    }
+}
+
+.setbg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.book{
+    color: aqua;
+    /* position: absolute;
+    padding-top:10%; */
+    font-family: 'Cabin', sans-serif;
+}
+
+.card-beauty{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-beauty{
+        margin-left:15%;
+        margin-bottom:10%;
+    }
+}
+
+.head{
+    font-family: 'Aclonica', sans-serif;
+}
+
+.top{
+    padding:20px;
+    margin-top:30px;
+}

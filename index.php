@@ -1,8 +1,8 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/sidebar.php" ?>
-
+<div class="home">
     <div class="row setbg">
-        <img class="img-fluid web" src="images/bluebg4.jpg" alt="home">
+        <img style="z-index:1" class="img-fluid web" src="images/bluebg4.jpg" alt="home">
         <img class="img-fluid mobile" src="images/bluebg2.jpg" alt="home">
     </div>
     <div class="row top">
@@ -65,9 +65,9 @@
     </div>
     
     <div>
-        <img class="img-fluid web mt-5" src="images/bg3.png" alt="bg2">
-        <img class="img-fluid mobile" src="images/bg4.png" alt="bg2">
+        <img class="img-fluid web mt-5" src="images/bg3.png" alt="bg3">
+        <img class="img-fluid mobile" src="images/bg4.png" alt="bg4">
     </div>
     
-
+</div>
 <?php include "includes/footer.php" ?>

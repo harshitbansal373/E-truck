@@ -6,8 +6,8 @@
     <div class="row justify-content-center align-items-center">
         <div class="col-sm-5 col-sm-offset-5">
             <div class="form-wrap">
-                <h3 class="text-center mt-3 mb-3" style="color:white"><i class="fas fa-user-plus fa-2x"></i></h3>
-				<h2 class="text-center" style="color:white">Join Us</h2>                    
+                <h3 class="text-center mt-3 mb-3" style="color:black"><i class="fas fa-user-plus fa-2x"></i></h3>
+				<h2 class="text-center" style="color:black">Join Us</h2>                    
                     <form role="form" action="registration.php" method="post" id="login-form" autocomplete="off">
                         <div class="form-group">
                             <label for="mobile" class="sr-only">Mobile No.</label>
@@ -31,7 +31,7 @@
                         </div>
                         <input type="submit" name="submit" id="btn-login" class="btn btn-secondary btn-lg btn-block mb-3" value="Register">
                     </form>
-                    <p class="text-center">Already Have an Account <a class="ml-2" style="color:yellow" href="login.php">Login Now</a></p>
+                    <p class="text-center">Already Have an Account <a class="ml-2" style="color:#222f3e;font-weight:bold;" href="login.php">Login Now</a></p>
             </div>
         </div> <!-- /.col-sm-5 -->
     </div> <!-- /.row -->
