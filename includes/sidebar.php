@@ -2,7 +2,6 @@
     
     <div class="container">
         <a class="navbar-brand" href="index.php">E-TRUCK</a>
-        <a class="navbar-brand ml-auto" href="index.php">Home</a>
         <span class="openbtn" onclick="openNav()"><i class="fas fa-bars fa-2x"></i></span>
     </div>
 
@@ -10,6 +9,7 @@
 
 <div id="mysidenav" class="sidenav">
     <p class="closebtn" onclick="closeNav()">&times;</p>
+    <a href="index.php">Home</a>
     <a href="login.php">Log In</a>
     <a href="#">Book Ride</a>
     <a href="join.php">Join Us</a>

@@ -2,12 +2,12 @@
 <?php include "includes/sidebar.php" ?>
 <div class="home">
     <div class="row setbg">
-        <img style="z-index:1" class="img-fluid web" src="images/bluebg4.jpg" alt="home">
+        <img class="img-fluid web" src="images/bluebg4.jpg" alt="home">
         <img class="img-fluid mobile" src="images/bluebg2.jpg" alt="home">
     </div>
     <div class="row top">
         <div class="col-sm-4 book px-5 pt-5 top">
-            <h2 class="text-center" style="font-family: 'Capriola', sans-serif;color:aqua;">GET A TRUCK NOW</h2>
+            <h2 class="text-center homehead">GET A TRUCK NOW</h2>
             <form action="" method="POST" enctype="multipart/form-data">
                 <div class="form-group mb-3 mt-5">
                     <input type="text" class="form-control" name="drop_in" placeholder="Drop in">
