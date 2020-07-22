@@ -1,4 +1,6 @@
 # Online Truck Booking System
+![repo-size](https://img.shields.io/github/repo-size/harshitbansal373/E-truck?style=flat-square)
+<br>
 This project is based on online truck booking system on demand according to load. This is basic Design of Site for Desktop and mobile view.
 
 # Some Preview
